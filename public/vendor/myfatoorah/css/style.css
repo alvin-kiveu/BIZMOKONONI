@@ -1,0 +1,189 @@
+/* COMMON STYLES
+   ========================================================================== */
+.mf-grey-text {
+    color: #888484 !important;
+    font-size: 12px;
+}
+
+.mf-danger-text{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#mf-noPaymentGateways{
+    display: none;
+}
+
+#mf-sectionButtons{
+    margin-top: 14px;
+}
+
+#mf-sectionGP{
+    height: 40px;
+}
+
+.mf-row-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-inline-end: .5rem;
+    text-align: start;
+}
+
+#gp-card-element{
+    height: 35px !important;
+}
+
+
+/* CONTAINERS
+   ========================================================================== */
+.mf-payment-methods-container {
+    /*max-width: 40rem;*/
+    width: fit-content;
+
+    background-color: #fff;
+
+    border: 0.063rem solid #e2e5e8;
+    border-radius: 0.5rem;
+    box-shadow: 0.063rem 0.063rem 0.625rem 0 rgba(144, 144, 144, 0.5);
+
+    padding: 15px 10px;
+    margin: 0.5rem auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* PAYMENT METHODS SECTION
+   ========================================================================== */
+.mf-card-container {
+    /*font-size: initial;*/
+    border: 0.063rem solid #e3e3e8;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.063rem 0.188rem 0 rgba(0, 0, 0, 0.1), 0 0.063rem 0.125rem 0 rgba(0, 0, 0, 0.06);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0.25rem 0.5rem;
+    padding: 0rem 0.5rem;
+
+
+    cursor: pointer;
+
+    background-color: #fff !important;
+    height: 48px !important;
+}
+.mf-card-container:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 0.063rem 0.125rem, rgba(45, 35, 66, 0.3) 0 0.188rem 0.25rem 0.063rem, #D6D6E7 0 0.063rem 0 inset  !important;
+    transform: translateY(-0.125rem);
+    background-color: white;
+    border: 0.063rem solid #e3e3e8;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.063rem 0.188rem 0 rgba(0, 0, 0, 0.1), 0 0.063rem 0.125rem 0 rgba(0, 0, 0, 0.06);
+    width: unset;
+}
+.mf-card-container:focus{
+    background-color: #fff;
+}
+.mf-payment-logo {
+    /*margin: 0.5rem !important;*/
+    margin-inline-end: 1rem !important;
+    width: 40px !important;
+}
+.mf-payment-text {
+    color: #40a7cf !important;
+    font-size: 12px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600 !important;
+    text-transform: initial;
+    margin: 1rem 0.5rem !important;
+}
+
+/* DIVIDER
+   ========================================================================== */
+.mf-divider, .mf-form-divider{
+    text-align: center;
+    border-bottom: 0.063rem solid;
+    line-height: 0.1rem;
+    margin: 16px 0 !important;
+    color: #b6b5b5;
+}
+
+.mf-divider-span {
+    color: #b6b5b5;
+    background: #fff;
+    padding:0 0.625rem;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    float: none !important;
+    display: inline !important;
+}
+
+/* Pay Now BTN
+   ========================================================================== */
+
+.mf-btn {
+    width: auto;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0rem;
+    color: var(--white);
+    padding: 0.3rem 2rem;
+}
+.mf-pay-now-btn {
+    /*height: 32.2px;*/
+    background-color: var(--brand-color);
+    justify-content: center;
+    color: white !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mf-pay-now-btn:hover {
+    /*text-decoration: none;*/
+}
+.mf-pay-now-span {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-weight: 500 !important;
+    /*font-family: 'Roboto', sans-serif;*/
+    vertical-align: baseline;
+    /*font-size: 14px !important;*/
+    color: white !important;
+    text-transform: initial;
+    line-height: 1.618;
+}
+/* MEDIA QUERIES
+   ========================================================================== */
+/*phone (480px - 400 - 320px)*/
+@media (max-width: 440px) {
+
+    .mf-card-container {
+        margin: 0.25rem 0rem;
+        height: 40px !important;
+    }
+
+    .mf-payment-methods-container {
+        padding: 15px 7px;
+        margin: 0.2rem auto;
+    }
+
+    .mf-payment-logo {
+        margin-inline-end: 0.5rem !important;
+        margin-inline-start: 0rem !important;
+        margin-top: 0 !important;
+        width: 30px !important;
+    }
+
+    .mf-payment-text {
+        font-weight: 500 !important;
+        /*font-size: 10px !important;*/
+        line-height: 15px;
+    }
+}
+/* ========================================================================== */
