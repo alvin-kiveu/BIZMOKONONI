@@ -1,0 +1,10 @@
+[2024-06-16 22:39:17] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Support/helpers.phpLine:327Message:The Landmark field is required.  
+[2024-06-16 22:46:31] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/symfony/mailer/Transport/Smtp/SmtpTransport.phpLine:338Message:Expected response code "250/251/252" but got code "550", with message "550 No Such User Here".  
+[2024-06-16 21:21:58] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 21:33:00] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 21:36:51] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 21:43:37] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 21:59:26] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 22:16:13] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 22:16:28] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
+[2024-06-16 22:40:47] live.EMERGENCY: File:/home/nivorte1/pos.nivortec.com/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.phpLine:598Message:No query results for model [App\Variation].  
